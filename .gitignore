@@ -153,8 +153,5 @@ cython_debug/
 dataset.npy
 gen_img.png
 gen_img_composite.png
-gen_img_upscale.png
-history.png
 out/*.png
 out_upscale/*.png
-stat.json

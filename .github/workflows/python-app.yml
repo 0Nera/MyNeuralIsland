@@ -35,14 +35,3 @@ jobs:
       run: |
         python3 train.py
         ls -l
-
-
-    - name: Save history
-      run: |
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git config --global user.name "github-actions[bot]"
-        git add history.png
-        git add gen_img_upscale.png
-        git add gen_img_upscale.png
-        git commit -m "Update history"
-        git push origin HEAD

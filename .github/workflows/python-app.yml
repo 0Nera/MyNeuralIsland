@@ -27,5 +27,14 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        ./run.sh
+        
+    - name: Create dataset
+      run: |
+        python3 make_dataset.py
+        ls -l
+
+        
+    - name: Train network
+      run: |
+        python3 train.py
         ls -l

@@ -1,5 +1,7 @@
 # MyNeuralIsland
 
+[![Train](https://github.com/0Nera/MyNeuralIsland/actions/workflows/python-app.yml/badge.svg)](https://github.com/0Nera/MyNeuralIsland/actions/workflows/python-app.yml)
+
 Эксперимент по обучению нейросети для генерации изображений островов 28 на 28 пикселей.
 
 Создано при поддержке: 

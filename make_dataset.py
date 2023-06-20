@@ -1,3 +1,8 @@
+import os
+import numpy as np
+from PIL import Image
+
+
 # Путь к папке, содержащей изображения
 path = 'in/'
 

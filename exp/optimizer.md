@@ -1,0 +1,40 @@
+Размер датасета: 28
+latent_dim = 3
+epochs = 5000
+learning_rate = 0.001
+
+
+Adam:
+Max loss: 1631.514404296875
+Min loss: 388.3119201660156
+Avg loss: 398.7373145019531
+
+Adamax:
+Max loss: 1631.055908203125
+Min loss: 388.78875732421875
+Avg loss: 404.5047425292969
+
+Adadelta:
+Max loss: 1632.7381591796875
+Min loss: 578.9935302734375
+Avg loss: 697.4769114379883
+
+Ftrl:
+Max loss: 1630.6732177734375
+Min loss: 678.8963623046875
+Avg loss: 710.8030674926758
+
+Nadam:
+Max loss: 5415.70263671875
+Min loss: 389.7724609375
+Avg loss: 424.3955392700195
+
+RMSprop:
+Max loss: 3492.4765625
+Min loss: 389.008056640625
+Avg loss: 415.9445664489746
+
+SGD:
+Max loss: 5903.0283203125
+Min loss: 682.7192993164062
+Avg loss: 697.7888647094727

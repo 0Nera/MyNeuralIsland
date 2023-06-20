@@ -6,6 +6,7 @@
 
 Создано при поддержке: 
 - https://t.me/synapselabs
+
 Официальный телеграм канал проекта: 
 - https://t.me/+dKmlWCTwCVMxM2Ji
 

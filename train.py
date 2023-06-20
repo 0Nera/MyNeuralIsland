@@ -12,7 +12,7 @@ from statistics import mean
 # Определим константы
 np.random.seed(None)
 latent_dim = 2 # Размерность скрытого пространства
-epochs = 50 # Количество эпох для обучения
+epochs = 1000  # Количество эпох для обучения
 
 # Загрузим набор данных и предобработаем его
 dataset = np.load('dataset.npy')
